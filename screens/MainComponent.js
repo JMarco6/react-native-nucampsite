@@ -1,4 +1,4 @@
-import { Platform } from 'react-native';
+import { Platform, View } from 'react-native';
 import Constants from 'expo-constants';
 import { createStackNavigator } from '@react-navigation/stack';
 import { View } from 'react-native';
@@ -24,7 +24,7 @@ const Main = () => {
                 }
             />
         </View>
-       
+       //Note
     )
 };
 
